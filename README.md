@@ -14,7 +14,15 @@ Discover hidden Easter eggs, references, and fun secrets in your favorite movies
 - Black background with film strips for immersive movie vibe  
 - Clear Chat option to reset history  
 
+## 🚀 Live Demo
+
+Visit the live application: [https://plantnet-plant-identifier-1.onrender.com/
+](https://movie-easter-egg-lens.onrender.com/)
 ---
+🖼️ Screenshots
+
+User query with Gemini-generated Easter eggs and TMDb poster
+Newest responses appear on top, posters optional
 
 ## 🏗️ Architecture
 
@@ -86,28 +94,13 @@ User Input → Extract Canonical Title (Gemini) → Fetch Poster (TMDb) → Gene
 ## 4️⃣ Deployment on Render
 
 - **Build Command:** `pip install -r requirements.txt` (optional, Render auto-detects Python)
-- **Start Command:**  
-```bash
-streamlit run app.py --server.port $PORT --server.enableCORS false
+- **Start Command:**  ```streamlit run app.py --server.port $PORT --server.enableCORS false```
 
-Environment Variables:
+### Environment Variables:
 
 GOOGLE_API_KEY → Google Gemini API key
-
 TMDB_API_KEY → TMDb API key (optional)
-
 Optional: Enable Auto-Deploy from GitHub to automatically update on pushes.
-
-
-```
-MovieEasterEggLens/
-│
-├── app.py                  # Main Streamlit app
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
-├── LICENSE                 # License file
-├── .gitignore              # Git ignore file
-```
 
 **Components:**
 
@@ -153,43 +146,13 @@ Install dependencies:
 pip install -r requirements.txt
 
 
-Set environment variables:
+Set environment variables in Render environment :
 
 export GOOGLE_API_KEY="YOUR_GOOGLE_GEMINI_API_KEY"
 export TMDB_API_KEY="YOUR_TMDB_API_KEY"  # Optional for posters
 
-
-🔑 API Keys
-TMDb API
-
-Sign up: https://www.themoviedb.org/signup
-
-Apply for API key: Settings → API
-
-Documentation: Search Movie API
-
-Google Gemini
-
-Get free API key: https://makersuite.google.com/app/apikey
-
-Documentation: Google Generative AI
-
-💻 Usage
-
-Run the app:
-
-streamlit run app.py
-
-
-Type your query (e.g., "Hidden details in Harry Potter: Quidditch scenes")
-
-Click 🔍 Find Easter Eggs
-
-View the Easter Egg 🥚 responses and poster image
-
-Use 🗑️ Clear Chat to reset history
-
-🏗️ Deployment on Render
+--- 
+### 🏗️ Deployment on Render
 
 Build Command: pip install -r requirements.txt
 
@@ -199,13 +162,31 @@ Environment Variables: GOOGLE_API_KEY and TMDB_API_KEY
 
 Optional: Enable Auto-Deploy from GitHub
 
-🖼️ Screenshots
+--- 
+### 🔑 API Keys
+TMDb API
+
+Sign up: https://www.themoviedb.org/signup
+Apply for API key: Settings → API
+Documentation: Search Movie API
+
+Google Gemini
+
+Get free API key: https://makersuite.google.com/app/apikey
+Documentation: Google Generative AI
+
+--- 
+### 💻 Usage
 
 
-User query with Gemini-generated Easter eggs and TMDb poster
+Type your query (e.g., "Hidden details in Harry Potter: Quidditch scenes")
+Click 🔍 Find Easter Eggs
+View the Easter Egg 🥚 responses and poster image
+Use 🗑️ Clear Chat to reset history
 
 
-Newest responses appear on top, posters optional
+--- 
+
 
 📦 Dependencies
 
