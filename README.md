@@ -17,6 +17,11 @@ Discover hidden Easter eggs, references, and fun secrets in your favorite movies
 ## 🚀 Live Demo
 - Visit the live application: [https://plantnet-plant-identifier-1.onrender.com/](https://movie-easter-egg-lens.onrender.com/)
 
+
+https://github.com/user-attachments/assets/fac23300-6353-4745-becc-15caa8a6590b
+
+
+
 ## Sequence Diagram 
 <img width="1583" height="854" alt="movie easter eggs -sequence diagram v1 updated" src="https://github.com/user-attachments/assets/62102355-bace-4c45-bdea-c6c77f60b782" />
 
