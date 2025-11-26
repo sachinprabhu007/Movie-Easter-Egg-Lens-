@@ -71,10 +71,10 @@ if st.button("🔍 Find Easter Eggs"):
 if st.button("🗑️ Clear Chat"):
     st.session_state.chat_history = []
 
-# Display chat history
-for human, bot in st.session_state.chat_history:
+# Display chat history (most recent first)
+for human, bot in reversed(st.session_state.chat_history):
     st.markdown(f"**You:** {human}")
-    st.markdown(f"**Movie Fan:** {bot}")
+    st.markdown(f"**Easter Egg 🥚:** {bot}")
     st.markdown("---")
 
 # -----------------------------
