@@ -158,24 +158,23 @@ export TMDB_API_KEY="YOUR_TMDB_API_KEY"  # Optional for posters
 ### 🔑 API Keys
 TMDb API
 
-Sign up: https://www.themoviedb.org/signup
-Apply for API key: Settings → API
-Documentation: Search Movie API
+- Sign up: https://www.themoviedb.org/signup
+- Apply for API key: Settings → API
+- Documentation: Search Movie API
 
 Google Gemini
 
-Get free API key: https://makersuite.google.com/app/apikey
-Documentation: Google Generative AI
+- Get free API key: https://makersuite.google.com/app/apikey
+- Documentation: Google Generative AI
 
 --- 
 ### 💻 Usage
 
 
-Type your query (e.g., "Hidden details in Harry Potter: Quidditch scenes")
-Click 🔍 Find Easter Eggs
-View the Easter Egg 🥚 responses and poster image
-Use 🗑️ Clear Chat to reset history
-
+- Type your query (e.g., "Hidden details in Harry Potter: Quidditch scenes")
+- Click 🔍 Find Easter Eggs
+- View the Easter Egg 🥚 responses and poster image
+- Use 🗑️ Clear Chat to reset history
 
 --- 
 
