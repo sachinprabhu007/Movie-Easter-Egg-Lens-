@@ -24,7 +24,7 @@ User query with Gemini-generated Easter eggs and TMDb poster
 Newest responses appear on top, posters optional
 
 ## Sequence Diagram 
-<img width="1503" height="812" alt="movie easter eggs -sequence diagram v1" src="https://github.com/user-attachments/assets/566ef813-9bab-40c7-9a40-d3f19e5de3a7" />
+<img width="1583" height="854" alt="movie easter eggs -sequence diagram v1 updated" src="https://github.com/user-attachments/assets/62102355-bace-4c45-bdea-c6c77f60b782" />
 
 ## 🏗️ Architecture
 
