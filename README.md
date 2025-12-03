@@ -21,6 +21,8 @@ Discover hidden Easter eggs, references, and fun secrets in your favorite movies
 https://github.com/user-attachments/assets/cc9f8dfb-f71e-4728-8b83-ed5ef89be37d
 
 
+## Workflow 
+<img width="800" height="2000" alt="🎬 Movie Easter Egg Lens - workflow 🔍" src="https://github.com/user-attachments/assets/f307ece0-d893-4333-ac53-3502899bd1f5" />
 
 
 
